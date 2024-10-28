@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ucapan Ulang Tahun untuk Nisa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f9f9f9;
+        }
+        #message {
+            display: none;
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 80%;
+            max-width: 500px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        #showMessageBtn {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        #showMessageBtn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<button id="showMessageBtn">Klik untuk melihat ucapan ulang tahun</button>
+
+<div id="message">
+    <h2>Selamat Ulang Tahun, Nisa!</h2>
+    <p>Semoga di hari istimewa ini, segala kebahagiaan, kesehatan, dan kesuksesan selalu menyertaimu. Teruslah menjadi pribadi yang luar biasa dan penuh kebaikan. Doa terbaik selalu untukmu!</p>
+    <p>Dan jangan cape ya sama kelakuanku :)</p>
+</div>
+
+<script>
+    document.getElementById("showMessageBtn").onclick = function() {
+        var message = document.getElementById("message");
+        message.style.display = "block";
+    };
+</script>
+
+</body>
+</html>
